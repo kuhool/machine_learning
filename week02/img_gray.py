@@ -10,7 +10,7 @@ from PIL import Image
 import cv2
 
 # 使用类库cv2读取一张图片，返回一个表示图片的numpy数组
-img = cv2.imread("img/lenna.png")
+img = cv2.imread("../img/lenna.png")
 # cv2.imshow("image show gray",img)
 # cv2.waitKey(0)
 
@@ -45,7 +45,7 @@ def ChangeGray( img ):
 
 #当前函数使用plt类库设置了一个2*2表格，最后一个1表示把图片放到第1个位置上
 plt.subplot(221)
-img = plt.imread("img/lenna.png")
+img = plt.imread("../img/lenna.png")
 plt.imshow(img)
 
 
